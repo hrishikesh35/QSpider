@@ -1,0 +1,15 @@
+FORM in html 
+    We use "<form>" tag to create a form.
+
+attributes
+1. "for"
+    This attribute is used to give a game for Label tag.
+
+2. "id"
+    This attribute is used to link Label tag with the input tag.
+
+3. "name"
+    This attribute is used to see the form in the URL.
+
+4. "value"
+    This attribute is used to give a name for input tag

@@ -1,0 +1,22 @@
+Tables in html
+
+we use "<table>" tag, in table tag we use "<tr>" tag and in that we use "<td>"
+
+"style" attribute gives you the access to the CSS. (Border-collapses: collapses)
+This CSS property is used to take out the spaces around the cells.
+
+"cellpadding" attribute will increase the size of the cell.
+it takes integers numbers as value.
+
+"cellspacing" it increases the space around the cell.
+We cannot use cellspacing with "Border-collapses: collapses".
+
+********************************************************
+"ColSpan"
+    When you are combining two cells in single row you use ColSpan.
+
+"RowSpan"
+    When you combining two cells in single coloum use RowSpan.
+
+HOMEWORK:
+    
