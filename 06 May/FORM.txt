@@ -3,7 +3,7 @@ FORM in html
 
 attributes
 1. "for"
-    This attribute is used to give a game for Label tag.
+    This attribute is used to give a name for Label tag.
 
 2. "id"
     This attribute is used to link Label tag with the input tag.

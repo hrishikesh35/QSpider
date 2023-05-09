@@ -1,0 +1,97 @@
+***Concepts of Form***
+Form Attributes
+    Attributes which are wirtten inside the "<form>" tag.
+    
+    1. "action"
+        This Attribute takes the path of the DB.
+        ```<from action="./data.php">```
+
+    2. "target"
+        This Attribute directes your form to a new page or to the same page.
+        2 types : 
+            _blank
+            _self
+        eg.
+        ```<form target="_self">```  ---> to be in the same page of the site
+        ```<form target="_blank">```  ---> to be in the new page of the site
+
+    3. "method"
+        This Attribute transfers your data in two ways 
+        a. get (It is less secure and default)
+        b. post (This method is more secured)
+        eg.
+        ```<form method="get">```
+        ```<form method="post">```
+
+    4. "autocomplete"
+        This Attribute gives us a option to hide or show the suggestions to the users
+        eg.
+        ```<form autocomplete="on">``` suggestions on
+        ```<form autocomplete="off">``` suggestions off
+
+    5. "novalidate"
+        This Attribute cancles the validation which is provided by the browsers.
+
+
+*****************************************************************************************************************
+
+
+*** Input Form Attributes ***
+
+1. "disabled"
+    This Attribute disables the entire Input types
+    eg.
+    ``` <input type="text" name="Hrishikesh" disabled id="n"> ```
+
+2. "readonly"
+    This Attribute allows the user to read the text and cannot change any data within it.
+    eg.
+    ``` <input type="text" name="Hrishikesh" readonly id="n"> ```
+
+3. "size"
+    this Attribute specifies the width of the input tag by giving values in numbers.
+    eg.
+    ``` <input type="text" size="5" name="Hrishikesh" readonly id="n"> ```
+
+4. "maxlenght"
+    this Attribute provides the lenght of the character to a maximum limit by usng the integer values.
+    eg.
+    ``` <input type="text" size="5" maxlength="5" name="Hrishikesh" readonly id="n"> ```
+
+5. "placeholder"
+    This Attribute is used to help the user to fill the form according to the required instructions.
+    eg.
+    ``` <input type="text" size="5" maxlength="5" placeholder="write your charactes in CAPS" name="Hrishikesh" readonly id="n"> ```
+
+6. "required"
+    this Attribute helps the user to fill the form without leaving any input field EMPYT.
+    eg.
+    ``` <input type="text" required name="Hrishikesh" readonly id="n"> ```
+
+7. "autofocus"
+    this Attribute ask the user to fill this input field first.
+    eg.
+    ``` <input type="text" autofocus name="Hrishikesh" readonly id="n"> ```
+
+*******************************************************************************************************************
+
+*** Form Tag ***
+
+1. "textarea"
+    This tag gives a huge text box where you can allign the size of the text box by using rows and columns.
+    eg.
+    ``` <textarea name="" id="" cols="10" rows="10"> </textarea> ```
+
+2. "select" inside select we use "option" ---> (used to create dropdown list.)
+            <select name="Subjects" id="book">
+                <option value="English">English</option>
+                <option value="Marathi">Marathi</option>
+                <option value="Hindi">Hindi</option>
+            </select>
+
+3. "fieldset" and "legend"
+    This tag provides us a border fro the entire from.
+    the legend tag provides a name in between the broder of the form.
+        <fieldset>
+            <legend> </legend>
+        </fieldset>

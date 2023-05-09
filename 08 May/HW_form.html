@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+    </head>
+    <body>
+        <div id="login-form-container">
+
+            <form name="registration" value="registartion-form">
+                <fieldset>
+                  <legend> <h3> Registration Form </h3> </legend>
+              <table>
+                <!-- <tr>
+                    <td><h1>Registration Form</h1></td>
+                </tr> -->
+                <tr>
+                  <td><label for="name">Name:</label></td>
+                  <td><input type="text" name="name" id="name" required placeholder="your name"></td>
+                </tr>
+                <tr>
+                  <td><label for="email">Email:</label></td>
+                  <td><input type="text" name="email" id="email" required placeholder="your email"></td>
+                </tr>
+                <tr>
+                  <td><label for="password">Password:</label></td>
+                  <td><input type="password" name="password" required id="password"></td>
+                </tr>
+                <tr>
+                  <td><label for="phoneNumber">Phone Number:</label></td>
+                  <td><input type="tel" maxlength="10" name="phoneNumber" required id="phoneNumber"></td>
+                </tr>
+                <tr>
+                  <td><label for="gender">Gender:</label></td>
+                  <td>Male: <input type="radio" name="gender" value="male">
+                    Female: <input type="radio" name="gender" value="female">
+                    Other: <input type="radio" name="gender" value="other"></td>
+                </tr>
+                <tr>
+                  <td><label for="language">language</label></td>
+                  <td>
+                    <select name="language" id="language">
+                      <option value="">Select language</option>
+                      <option value="English">English</option>
+                      <option value="Spanish">Spanish</option>
+                      <option value="Hindi">Hindi</option>
+                    </select>
+                  </td>
+                </tr>
+                <tr>
+                  <td><label for="zipcode">Zip Code:</label></td>
+                  <td><input type="number" maxlength="6" name="zipcode" id="zipcode"></td>
+                </tr>
+                <tr>
+                  <td><label for="about">About:</label></td>
+                  <td><textarea name="about" id="about" placeholder="Write about yourself..."></textarea></td>
+                </tr>
+                <tr>
+                  <td colspan="2"><input type="submit" class="submit" value="Register" ></td>
+                </tr>
+              </table>
+            </fieldset>
+            </form>
+          </div>
+    </body>
+</html>
