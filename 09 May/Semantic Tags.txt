@@ -1,0 +1,14 @@
+Semantic Tags
+                    Header
+
+                    Nav
+
+                        Section
+            Aside     
+                        Article
+                    
+                    Footer
+
+    The tags which are understandable by the user and browser are know as semantic tags.
+    it has a another type 
+    details and summary

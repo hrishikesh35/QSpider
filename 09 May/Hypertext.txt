@@ -1,0 +1,29 @@
+1. Anchor Tag
+    <a href=""> </a>
+    eg.
+        <a href="https://github.com/hrishikesh35">hrishikesh</a>
+
+2. Image Tag
+    <img src="" alt="">
+    eg.
+        <img src="../05 May/superman_2.jpg" alt="ERROR">
+        If image has an error in the src the alt will give you the message that you provide.
+
+3. Frame
+    <iframe src="" frameborder="0"></iframe>
+    eg.
+        <iframe src="../05 May/superman_2.jpg" frameborder="0" height="500" width="500" ></iframe>
+        
+4. Video
+    <video src=""></video>
+    eg.
+        <video controls>
+            <source src="">
+        </video>
+
+5. Audio
+    <audio src=""></audio>
+    eg.
+        <audio controls>
+            <source src="">
+        </audio>

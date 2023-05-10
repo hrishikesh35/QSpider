@@ -1,0 +1,17 @@
+Block Level Elements
+<div> </div>  ---> block Element
+eg.
+    <div style="border: 1px solid black; width: 100px; height: 40px;">Hrishikesh</div>
+                         |    |     |             |              |                       
+                 thickness  style  color         size           size 
+
+<span> </span>  ---> inline Element
+eg.
+    <span style="border: 1px solid rgb(203, 12, 12);">Hrishikesh</span>
+
+    Inline Element does ot take height and width, they accquire height and width.
+
+NOTE: blocl Level Element are arrange vertically
+      inline Element are arrange horizontaly
+
+HW: 5 inline and block Elements
