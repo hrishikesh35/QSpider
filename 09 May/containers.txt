@@ -20,15 +20,15 @@ Here are 5 block elements and 5 inline elements in HTML:
 
 Block elements:
 
-<p> - defines a paragraph 1
-<div> - defines a division or a section 1
-<h1> - defines HTML headings 1
-<ol> - defines an ordered list 1
-<ul> - defines an unordered list 1
+<p> - defines a paragraph 
+<div> - defines a division or a section 
+<h1> - defines HTML headings 
+<ol> - defines an ordered list 
+<ul> - defines an unordered list 
 Inline elements:
 
-<a> - defines a hyperlink 1
-<span> - defines a span of text 1
-<img> - defines an image 1
-<em> - defines emphasized text 1
-<strong> - defines important text 1
+<a> - defines a hyperlink 
+<span> - defines a span of text
+<img> - defines an image 
+<em> - defines emphasized text 
+<strong> - defines important text 
