@@ -15,3 +15,20 @@ NOTE: blocl Level Element are arrange vertically
       inline Element are arrange horizontaly
 
 HW: 5 inline and block Elements
+
+Here are 5 block elements and 5 inline elements in HTML:
+
+Block elements:
+
+<p> - defines a paragraph 1
+<div> - defines a division or a section 1
+<h1> - defines HTML headings 1
+<ol> - defines an ordered list 1
+<ul> - defines an unordered list 1
+Inline elements:
+
+<a> - defines a hyperlink 1
+<span> - defines a span of text 1
+<img> - defines an image 1
+<em> - defines emphasized text 1
+<strong> - defines important text 1
