@@ -1,0 +1,94 @@
+CSS
+
+External CSS
+    We create a new CSS file and link it with the html file by using link tag.
+    eg.
+
+
+    Link tag has two attributes rel and href
+        rel defines the relation between html and css file.
+
+        href take the path of the external css file.
+
+***************************************************************************************************************************
+
+*** SIMPLE SELECTORS ***
+
+1. Universal Selectros (*)
+    *{
+        background-color: plum;
+        color: red;
+    }
+
+2. ID Selectros (#)
+    #h{
+        background-color: red;
+    }
+
+    -> you cannot have same id name for more then one tag.
+    -> Id names should be unique.
+
+3. Class Selectros (.)
+    .hrihsi
+    {
+        color: rebeccapurple;   
+    }
+
+    -> Class name can be used multiple times.
+
+4. Element Selectros
+    h1
+    {
+        color: red;
+    }
+    h3
+    {
+        color: bule;
+    }
+
+
+*** COMBINATOR SELECTORS ***
+
+1. Decendent Selectros (   )
+    div p
+    {
+        color: indigo;
+    }
+
+    div h1
+    {
+        color: chartreuse;
+    }
+
+2. Chile Selectros (>)
+    div>h1
+    {
+        color: darkgoldenrod;
+    }
+
+    span>h1
+    {
+        color: aquamarine;
+    }
+
+3. Adjacent Sibling Selector (+)
+    It will select onw selector at a time and it will be first Sibling.
+    {
+        color: burlywood;
+    }
+    p+h1
+    {
+        color: tomato;
+    }
+    div+p+p
+    {
+        color: darkgreen;
+    }
+
+4. General Sibling Selectro (~)
+    div~h1
+    {
+        color: yellow;
+    }
+
+    It will change the color of all the Siblings of same tag

@@ -1,0 +1,49 @@
+/* DECENDENT SELECTOR */
+
+/* div p
+{
+    color: indigo;
+}
+div h1
+{
+    color: chartreuse;
+} */
+
+
+
+/* CHILD SELECTOR */
+
+/* div>h1
+{
+    color: darkgoldenrod;
+}
+span>h1
+{
+    color: aquamarine;
+} */
+
+
+
+/* Adjacent Sibling Selector */
+
+/* div+p
+{
+    color: burlywood;
+}
+p+h1
+{
+    color: tomato;
+}
+div+p+p
+{
+    color: darkgreen;
+} */
+
+
+/* General Sibling Selector */
+
+div~h1
+{
+    background: #b6bab5;
+    color: yellow;
+}
