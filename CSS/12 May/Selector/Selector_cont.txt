@@ -1,0 +1,65 @@
+*** SELECTORS ***
+
+3. Psudo-class Selector
+    a. link
+        To change the default link color from blue (freashlink) to any other color we use Psudo class Selector.
+        To change the color of fresh link we have the property called link.
+        eg. 
+            a:link
+            {
+                color: violet;
+            }
+
+    b. visited
+        In default visited link gives purple color
+        By using Psudo class Selector(visited) we can change the color of the visited link.
+        eg.
+            a:visited
+            {
+                color: red;
+            }
+    
+    c. hover
+        This property works when you hover on the elements y using the mouse curser.
+        eg.
+            a:hover
+            {
+                background-color: black;
+            }
+    
+    d. active
+        This active works on links and buttons 
+        This represents weather your link or button is active orr not.
+
+4. Psudo Element Selector (::)
+    a. first-letter
+        eg.
+        p::first-letter
+        {
+            background-color: aqua;
+        }
+
+    b. first-line
+        eg.
+        p::first-line
+        {
+            background-color: blueviolet;
+            color: brown;
+        }
+
+    c. before
+        eg.
+        h1::before
+        {
+            content: "Hello";
+        }
+
+    d. after
+        eg.
+        h1::after
+        {
+            content: "Hrishikesh.";
+        }
+
+    e. marker
+        This property is used to give seperate colors to letters which are inside of the list.

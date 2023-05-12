@@ -1,0 +1,13 @@
+*** BACKGROUND PROPERTIES ***
+
+1. Background-color
+    
+2. Background-image
+
+3. Background-repeat
+
+4. Background-size: auto
+                    cover
+                    contain
+
+5. Background-position

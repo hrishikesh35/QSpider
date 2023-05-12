@@ -1,0 +1,10 @@
+#hrishi
+{
+    border: 1px solid black;
+    width: 1300px;
+    height: 800px;
+    background-image: url(./superman_2.jpg);
+    background-repeat: no-repeat;
+    background-size: 1000px 700px;
+    background-position: bottom right;
+}
