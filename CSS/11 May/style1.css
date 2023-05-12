@@ -13,14 +13,14 @@ div h1
 
 /* CHILD SELECTOR */
 
-/* div>h1
+div>p
 {
     color: darkgoldenrod;
 }
 span>h1
 {
     color: aquamarine;
-} */
+}
 
 
 
@@ -42,8 +42,8 @@ div+p+p
 
 /* General Sibling Selector */
 
-div~h1
+/* div~h1
 {
     background: #b6bab5;
     color: yellow;
-}
+} */
