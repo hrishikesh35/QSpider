@@ -1,0 +1,24 @@
+/* BOX MODEL */
+
+#hrishi
+{
+    border: 10px dotted blue;
+    width: 500px;
+    height: 500px;
+    
+    margin-left: 500px;
+    margin-top: 50px;
+
+    padding-top: 189px;
+    padding-left: 160px;
+    box-sizing: border-box;
+
+
+    /* border-radius: 500px; */
+}
+
+h1
+{
+    color: cadetblue;
+    background-color: chocolate;
+}

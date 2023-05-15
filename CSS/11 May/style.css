@@ -1,8 +1,8 @@
 /* Universal Selectros (*) */
-    /* *{
+    *{
         background-color: plum;
         color: red;
-    } */
+    }
 
 /* ID SELECTOR */
 /* #hrishi
@@ -26,7 +26,7 @@
 
 
 /* Element Selector */
-h1
+/* h1
 {
     color: chartreuse;
 }
@@ -34,4 +34,4 @@ h1
 h2
 {
     color: darkslateblue;
-}
+} */

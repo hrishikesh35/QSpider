@@ -63,3 +63,6 @@
 
     e. marker
         This property is used to give seperate colors to letters which are inside of the list.
+
+    f. selection 
+        

@@ -1,0 +1,34 @@
+/* TEXT */
+
+#hrishi
+{
+    border: 10px dotted blue;
+    width: 500px;
+    height: 500px;
+    /* border-radius: 100px; */
+    
+    /* margin-left: 500px;
+    margin-top: 50px;
+
+    padding-top: 189px;
+    padding-left: 160px;
+    box-sizing: border-box;
+
+    color: crimson;
+    text-align: justify;
+    text-transform: capitalize; */
+}
+
+p
+{
+    /* color: red; */
+    /* text-align: justify; */
+    /* text-transform: capitalize; */
+    /* text-decoration: dashed; */
+
+    /* text-shadow: 2px 2px 2px black; */
+
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    line-height: 50px;
+}

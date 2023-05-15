@@ -11,3 +11,7 @@
                     contain
 
 5. Background-position
+                    top right
+                    top left
+                    bottom right
+                    bottom left

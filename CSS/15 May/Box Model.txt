@@ -1,0 +1,23 @@
+*** BOX MODEL ***
+
+It is combination of "margin" and "padding".
+ 
+    a. margin
+        properties of margin
+        1. margin-top
+        2. margin-right
+        3. margin-left
+        4. margin-bottom
+
+        Margin Properties are useed to move the container from current position.
+
+    b. padding
+        a. padding-top
+        b. padding-bottom
+        c. padding-right
+        d. padding-left
+            This properties are used to move the content inside the container
+            when padding is used the container may deffer in size.
+        
+        e.box-sizing: border-box;
+            this property makes the container to be in actual size (Height, width) which is given by the user.

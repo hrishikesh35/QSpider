@@ -1,0 +1,25 @@
+*** TEXT PROPERTIES ***
+
+text-allign
+it allignes the content
+
+text-decoration-color
+it gives the colot to the decoration line
+
+text-decoration-thickness
+this property gives the thickness for the decoration line.
+
+text-decoration-style
+we have two types 
+    dotted 
+    dashed
+
+text-decoration: none
+    This property takes out all the text decoration (underline, overline, linequeue)
+
+
+text-shadow: 2px 2px 2px black;
+the first value is horizontal
+the second value is verticel
+the third value is blur
+the forth value is color

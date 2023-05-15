@@ -1,0 +1,12 @@
+/* BORDER */
+
+#hrishi
+{
+    width: 500px;
+    height: 500px;
+    border-width: 5px;
+    border-style: dotted;
+    border-color: brown;
+    /* border-radius: 200px; */
+    border-top-right-radius: 200px;
+}
