@@ -1,0 +1,15 @@
+p
+{
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+
+    /* overflow */
+    overflow: scroll;
+
+    /* float: right */
+
+    margin-left: auto;
+    margin-right: auto;
+}

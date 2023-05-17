@@ -1,0 +1,17 @@
+
+h5
+{
+    border: 1px solid black;
+    width: 70px;
+    height: 20px;
+    background-color: red;
+    
+    /* FIXED */
+    /* position: fixed;
+    top: 200px;
+    left: 200px; */
+
+    /* STICKY */
+    position: sticky;
+    top: 0px;
+}

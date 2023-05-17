@@ -1,0 +1,37 @@
+*** TEXT CONT. ***
+
+4. fixed
+    This property fixes the container at the correct user given position by overlapping on other content.
+
+
+5. sticky
+    This property is normally used in Header part of the application.
+    Headers imp to specify the position where the position should stick.
+
+
+DIFFERENCE:
+    Fixed 
+        When we used the property position fixed it 
+        overlaps and does not have its own space.
+
+
+    Sticky
+        The container will be in its place and 
+    does not hide the content until and unless we scrol it.
+
+
+
+***************************************************************************************************************************************************
+
+*** Z INDEX ***
+    This property is used when we want the container to be behind the screen or on top of other container.
+    When we use positionas Z index it is nessery to provide the position "absolute".
+
+***************************************************************************************************************************************************
+
+*** OVER ***
+
+float 
+    You can move the container left or right by using float property
+    If you wanna make the container allign to the center we 
+    can ues the margin-left and margin-right to auto.
