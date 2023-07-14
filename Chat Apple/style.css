@@ -1,0 +1,74 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+  }
+  
+  /* Hero section styles */
+  #hero {
+    text-align: center;
+    padding: 100px;
+    background-color: #f0f0f0;
+  }
+  
+  /* Products section styles */
+  #products {
+    text-align: center;
+    padding: 50px;
+    background-color: #fff;
+  }
+  
+  .product {
+    display: inline-block;
+    margin: 20px;
+  }
+  
+  .product img {
+    width: 300px;
+  }
+  
+  /* Button styles */
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+  }
+  

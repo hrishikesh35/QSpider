@@ -1,0 +1,181 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+header
+{
+    border: 1px solid black;
+    height: 45px;
+    width: 100%;
+    background-color: rgb(67,67,68);
+}
+
+#miniheader
+{
+    /* border: 1px solid black; */
+    height: 45px;
+    width: 85%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    align-items: center;
+}
+
+.mini
+{
+    /* border: 1px solid black; */
+    height: 25px;
+    width: 50px;
+    color: white;
+}
+
+#logo
+{
+    /* border: 1px solid black; */
+    height: 25px;
+    width: 50px;
+    color: white;
+}
+
+#search
+{
+    /* border: 1px solid black; */
+    height: 25px;
+    width: 50px;
+    color: white;
+}
+
+#cart
+{
+    /* border: 1px solid black; */
+    height: 25px;
+    width: 50px;
+    color: white;
+}
+
+#et
+{
+    width: 90px;
+}
+
+
+#instant
+{
+    /* border: 1px solid black; */
+    height: 45px;
+    width: 100%;
+    
+}
+
+h5
+{
+    padding-top: 10px;
+    text-align: center;
+}
+
+.main
+{
+    /* border: 1px solid black; */
+    height: 614px;
+    width: 100%;
+    background-color: black;
+}
+
+.headline 
+{
+    padding-top: 90px;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+.headline1 
+{
+    padding-top: 10px;
+    text-align: center;
+    color: white;
+}
+
+.bt
+{
+    color: rgba(0, 0, 255, 0.901);
+    text-align: center;
+
+}
+
+#imageone
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 87%;
+}
+
+.maintwo
+{
+    /* border: 1px solid rgb(0, 0, 0); */
+    height: 700px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.headlinethree 
+{
+    padding-top: 90px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+}
+
+.headlinefour
+{
+    padding-top: 10px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+#imagetwo
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.mainthree
+{
+    border: 1px solid rgb(0, 0, 0);
+    height: 600px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+
+.headlinethree 
+{
+    padding-top: 90px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+}
+
+.headlinefour
+{
+    padding-top: 10px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+#imagethree
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 44%;
+}

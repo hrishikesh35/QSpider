@@ -1,0 +1,100 @@
+variables:
+1. var
+
+
+2. LET:
+    -> It is a local variable and does not allow redeclaration.
+    -> We can change the value of the Let variable but can't reintialize them.
+
+3. CONST
+    -> Const can be declared and initialized in a single line.
+    -> We cannot reintialize or redeclare const variable.
+
+
+
+DATA TYPES:
+There are two types of data types
+A. Premitive datatype (IMMUTABLE)
+    1. Number:
+        Example:
+        var hrishi = 23.11;
+        console.log(hrishi);
+        console.log(typeof hrishi);
+
+        * typeof:
+          This operator helps to see the datatype inside the memory.
+
+    2. String:
+        Example:
+        var name = "hrishi";
+        var institution = "Q-Spiders"
+        console.log("Hello I am " + name + ". I am from " + institution.);
+        console.log(`hello i am ${name} I am from ${institution}`);
+
+    3. Boolean:
+        Example:
+        var a = true;
+        console.log(a);
+        console.log(typeof a);
+
+    4. Undefined:
+        Example:
+        var name;
+        console.log(name);
+
+        -> JS gives a value as Undefined when a memory is created or variable is declared.
+
+    5. NULL:
+        The value given by the user to make a memory empty.
+        data type of NULL is Object.
+
+        Example:
+        var hello = null;
+        console.log(hello);
+        console.log(typeof hello);
+
+    6. Bigint:
+        This datatype takes number which is less than -(2^53-1) or more than (2^53-1).
+        We can use Bigint to store number beyond the range by suffixing the number with n.
+        Example:
+        var a = 1n;
+        console.log(typeof a);
+
+B. Non-Premitive datatype (MUTABLE)
+
+
+
+
+HOISTING:
+    JS allows a programmer to use a variable before the declaration is known as HOISTING.
+    using variable before declarationis Hoising.
+
+    * Hoising happens only for VAR variable.*
+    *Temporal Dead Zone:
+        The time taken between variable declaration and variable initialization 
+        in the local variable (LET and CONST) is Temporal Dead Zone*
+
+    Example:
+    a = 22;
+    console.log(a);
+    var a;
+    console.log(a);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
