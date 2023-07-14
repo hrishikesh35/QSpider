@@ -1,0 +1,48 @@
+METHODS:
+
+    1. length:
+        * Even spaces are consider as value in String.
+
+    2. chatAt():
+        It starts from 0 and counts from 0.
+
+    3. charCodeAt()
+        It returns us the ASSCI value of the character.
+
+    4. trim()
+        It removes the excess space from the starting and ending of a String.
+
+    5. toUpperCase() 
+    6. toLowerCase()
+
+    7. replace()
+        It will replacethe words in the String.
+
+    8. replaceAll()
+
+    9. indexOf()
+        It counts the index of the character in the string.
+
+    10. lastIndexOf()
+        It counts teh index from the last character of the String.
+
+    11. prompt()
+        It is a pop up window to collect data.
+
+    12. substring() // slice() 
+        It creates the Sub String from the existing String of given values(0,10).
+        It wil create the string till -1 of last value.
+        substring varies from 0 ans does not take the last value
+
+    13. includes()
+        It check fro the data gives and returns the Boolean value.
+
+    15. reverse the string
+        a. split 
+            It converts String into an array and within it ("") each and perticulas character including spaces one by one.
+        
+        b. reverse 
+            It is an Array method it works only with an Array.
+
+        c. join
+            It is an Array method where it can converts an Array to String.

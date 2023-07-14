@@ -21,6 +21,8 @@ A. Premitive datatype (IMMUTABLE)
         console.log(hrishi);
         console.log(typeof hrishi);
 
+        range of number is from -(2^53-1) to 2^53-1
+
         * typeof:
           This operator helps to see the datatype inside the memory.
 
